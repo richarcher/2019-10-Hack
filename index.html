@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="http://ui-core.master.pdg.io/css/uif-latest.min.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section id="start" data-background="#1aafe6" style="color: white;">
+				<svg class="pf-logo" style="width: 30%; height: 10%; color: white;">
+					<use xlink:href="../assets/logos.svg#logo-inline"></use>
+				</svg>
+				<h2>Uplifting Impressive Fabulousness</h2>
+				<ol class="list list--fancy">
+					<li class="fragment">
+						<h4>UIF Interface Framework</h3>
+					</li>
+					<li class="fragment">
+						<h4>Shareable UI component library</h4>
+					</li>
+					<li class="fragment">
+						<h4>Allows engineers to get on with prototyping/building services without worrying about UI</h4>
+					</li>
+				</ol>
+			</section>
+			<section>
+				<section>
+					<h2>To Do List</h2>
+					<nav>
+						<ol>
+							<li>
+								<div></div>
+								2020 Planning
+							</li>
+							<li>
+								<div></div>
+								Securitisation
+							</li>
+							<li>
+								<div></div>
+								Loan Management System
+							</li>
+							<li>
+								<div></div>
+								...Profit
+							</li>
+						</ol>
+					</nav>
+				</section>
+				<section>
+					<h2>To Do List</h2>
+					<nav class="block-visible-small">
+						<ol class="step-bar">
+							<li class="step-bar__step is-complete">
+								<div class="step-bar__step-marker"></div>
+								2020 Planning
+							</li>
+							<li class="step-bar__step is-active">
+								<div class="step-bar__step-marker"></div>
+								Securitisation
+							</li>
+							<li class="step-bar__step">
+								<div class="step-bar__step-marker"></div>
+								Loan Management System
+							</li>
+							<li class="step-bar__step">
+								<div class="step-bar__step-marker"></div>
+								...Profit
+							</li>
+						</ol>
+					</nav>
+				</section>
+			</section>
+			<section data-background-iframe="http://ui-core.master.pdg.io/v2.4/" data-background-interactive></section>
+			<section data-background="#b5533c" id="problem" style="color: white;">
+				<img src="../assets/ruby.png" alt="" />
+				<h2>Problems:</h2>
+				<ol class="list list--fancy">
+					<li class="fragment">
+						<h4>It is a Gem</h4>
+					</li>
+					<li class="fragment">
+						<h4>It is Ruby-only</h4>
+					</li>
+					<li class="fragment">
+						<h4>It is a pain in the ass to use</h4>
+					</li>
+				</ol>
+			</section>
+			<section id="languages">
+				<img style="width: 20%" src="../assets/ruby.png" alt="" />
+				<img style="width: 20%" src="../assets/python.png" alt="" />
+				<img style="width: 20%" src="../assets/nodejs.png" alt="" />
+				<img style="width: 20%" src="../assets/react.png" alt="" />
+			</section>
+			<section id="what-is-npm" data-background="#1aafe6" style="color: white;">
+				<blockquote>
+					<p><q>npm is the <em style="font-weight: bold;">world’s largest software registry</em>. Open source developers
+							from every
+							continent use npm to
+							share
+							and borrow
+							packages, and many organizations use npm to manage private development as well.</q></p>
+					<br>
+					<p>- <cite>https://docs.npmjs.com/about-npm/</cite></p>
+				</blockquote>
+			</section>
+			<section id="npm" data-background="../assets/npmjs.png"></section>
+			<section id="npm-install" data-background="#1aafe6" style="color: white;">
+				<h2>How do I get this?</h2>
+				<div>
+					<p><code><pre>$ gem install ui-core</pre></code></p>
+					<br />
+				</div>
+				<div class="fragment">
+					<p><code><pre>$ npm install @prodigy-finance/ui-core</pre></code></p>
+					<p><code><pre>$ yarn install @prodigy-finance/ui-core</pre></code></p>
+					<br />
+				</div>
+				<div class="fragment">
+					<p>
+						<code><pre>&lt;link rel="stylesheet" href="http://ui-core.master.pdg.io/css/uif-latest.min.css"&gt;</pre></code>
+					</p>
+				</div>
+			</section>
+			<section id="end" data-background="#1aafe6" style="color: white;">
+				<svg class="pf-logo" style="width: 30%; height: 10%; color: white;">
+					<use xlink:href="../assets/logos.svg#logo-inline"></use>
+				</svg>
+				<h1 style="font-size: 10vw; margin-top: .5em;">Cheers!</h1>
+				<h2>Questions?</h2>
+				<p>&copy; 2019 Team Uplifting Impressive Fabulousness</p>
+			</section>
+		</div>
+	</div>
+
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
