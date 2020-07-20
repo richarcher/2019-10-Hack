@@ -22,6 +22,6 @@
   "homepage": "https://richarcher.github.io/2019-10-Hack",
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.12.3"
   }
 }
