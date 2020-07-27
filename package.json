@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "http-server -o",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d .",
+    "audit:ci": "node node_modules/better-npm-audit audit"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "dependencies": {
     "gh-pages": "^2.1.1",
     "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "better-npm-audit": "^1.2.0"
   }
 }
